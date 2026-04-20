@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+
 // brute force-     O(n^3)
 // void maxSubArray(int arr[], int n)
 // {
@@ -23,21 +25,10 @@ using namespace std;
 
 void maxSubArray(int arr[], int n)
 {
-    int maxSum = INT_MIN;
-    int st = 0;
-    while (st < n)
-    {
-        int end = st;
-        while (end < n)
-        {
-            //    int arrSum=0;
-            //    int id=st;
-            cout << arr[st] << "," << arr[end] << endl;
-            end++;
-        }
-        st++;
-    }
+  
 }
+
+
 // better approach-     O(n^2)
 void maxSubArray1(int arr[], int n)
 {
